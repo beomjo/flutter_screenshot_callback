@@ -9,7 +9,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  ScreenshotCallback screenshotCallback;
+  late ScreenshotCallback screenshotCallback;
 
   String text = "Ready..";
 
